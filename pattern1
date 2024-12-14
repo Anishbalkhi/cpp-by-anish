@@ -1,0 +1,16 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+int n = 102354;
+int sum = 0;
+while(n>0){
+    
+int ldigit = n%10;
+if(ldigit % 2 != 0){
+    sum = sum + ldigit;}
+    n = n/10;
+}
+cout<<"sum = "<<sum;
+    return 0;
+}
